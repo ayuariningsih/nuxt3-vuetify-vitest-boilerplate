@@ -1,0 +1,10 @@
+$font-family: "Open Sans";
+
+@use 'vuetify' with (
+  $body-font-family: $font-family
+);
+
+body {
+  font-family: $font-family;
+}
+
